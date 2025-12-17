@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Navigation } from "@/components/navigation"
 import { useI18n } from "@/lib/i18n"
-import { Linkedin, Github, MessageCircle } from "lucide-react"
+import { Linkedin, Github, MessageCircle, Mail } from "lucide-react"
 
 export default function ContactPage() {
   const { lang } = useI18n()
@@ -66,7 +66,7 @@ export default function ContactPage() {
               </p>
 
               <Button asChild variant="outline" className="w-full bg-transparent border-2">
-                <Link href={mailtoRemote}>
+                <Link href={whatsappLink}>
                   {data.selectOption}
                 </Link>
               </Button>
@@ -80,7 +80,7 @@ export default function ContactPage() {
               </p>
 
               <Button asChild variant="outline" className="w-full bg-transparent border-2">
-                <Link href={mailtoBusiness}>
+                <Link href={whatsappLink}>
                   {data.selectOption}
                 </Link>
               </Button>
@@ -105,9 +105,9 @@ export default function ContactPage() {
               </Button>
 
               <Button asChild variant="outline" className="border-2 bg-transparent">
-                <Link href={whatsappLink} target="_blank">
-                  <MessageCircle className="mr-2 h-4 w-4" />
-                  WhatsApp
+                <Link href={mailtoBusiness} target="_blank">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Email
                 </Link>
               </Button>
 
