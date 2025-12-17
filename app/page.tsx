@@ -190,16 +190,15 @@ export default function HomePage() {
                 <li>• {t("problems.technical.item5")}</li>
               </ul>
             </div>
-
             <div>
               <Database className="h-8 w-8 mb-4 text-accent" />
               <h3 className="font-bold mb-3">{t("problems.business")}</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Manual processes that waste time</li>
-                <li>• Outdated unmaintained systems</li>
-                <li>• Lack of technical ownership</li>
-                <li>• Data fragmentation</li>
-                <li>• Integration challenges</li>
+                <li>• {t("problems.business.item1")}</li>
+                <li>• {t("problems.business.item2")}</li>
+                <li>• {t("problems.business.item3")}</li>
+                <li>• {t("problems.business.item4")}</li>
+                <li>• {t("problems.business.item5")}</li>
               </ul>
             </div>
 
@@ -207,11 +206,11 @@ export default function HomePage() {
               <Server className="h-8 w-8 mb-4 text-accent" />
               <h3 className="font-bold mb-3">{t("problems.infrastructure")}</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Deployment complexity</li>
-                <li>• Database optimization</li>
-                <li>• Cloud infrastructure setup</li>
-                <li>• CI/CD pipeline creation</li>
-                <li>• Monitoring and observability</li>
+                <li>• {t("problems.infrastructure.item1")}</li>
+                <li>• {t("problems.infrastructure.item2")}</li>
+                <li>• {t("problems.infrastructure.item3")}</li>
+                <li>• {t("problems.infrastructure.item4")}</li>
+                <li>• {t("problems.infrastructure.item5")}</li>
               </ul>
             </div>
           </div>

@@ -66,8 +66,18 @@ const translations = {
     "problems.technical.item5": "Technical debt management",
 
     "problems.business": "Business and Operational Problems",
+    "problems.business.item1": "Manual processes that waste time",
+    "problems.business.item2": "Outdated and unmaintained systems",
+    "problems.business.item3": "Lack of technical ownership",
+    "problems.business.item4": "Data fragmentation",
+    "problems.business.item5": "Integration challenges",
     
     "problems.infrastructure": "Infrastructure and Cloud Problems",
+    "problems.infrastructure.item1": "Deployment complexity",
+    "problems.infrastructure.item2": "Database optimization",
+    "problems.infrastructure.item3": "Cloud infrastructure setup",
+    "problems.infrastructure.item4": "CI/CD pipeline creation",
+    "problems.infrastructure.item5": "Monitoring and observability",
 
     // CTA
     "cta.title": "Ready to Work Together?",
@@ -156,7 +166,17 @@ const translations = {
     "problems.technical.item4": "Limitaciones de escalabilidad",
     "problems.technical.item5": "Gestión de deuda técnica",
     "problems.business": "Problemas Empresariales y Operativos",
+    "problems.business.item1": "Procesos manuales que desperdician tiempo",
+    "problems.business.item2": "Sistemas obsoletos sin mantenimiento",
+    "problems.business.item3": "Falta de propiedad técnica",
+    "problems.business.item4": "Fragmentación de datos",
+    "problems.business.item5": "Desafíos de integración",
     "problems.infrastructure": "Problemas de Infraestructura y Nube",
+    "problems.infrastructure.item1": "Complejidad en despliegues",
+    "problems.infrastructure.item2": "Optimización de bases de datos",
+    "problems.infrastructure.item3": "Configuración de infraestructura en la nube",
+    "problems.infrastructure.item4": "Creación de pipelines CI/CD",
+    "problems.infrastructure.item5": "Monitoreo y observabilidad",
 
     // CTA
     "cta.title": "¿Listo para Trabajar Juntos?",
