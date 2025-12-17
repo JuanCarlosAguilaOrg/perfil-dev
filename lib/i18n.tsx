@@ -23,77 +23,87 @@ const translations = {
     "nav.mindset": "Mindset",
     "nav.contact": "Contact",
 
-    // Hero
-    "hero.title": "Building Production Systems That Drive Business Impact",
+    // Hero (SEO reforzado)
+    "hero.title": "Senior Software Engineer Building Production Systems for Business Impact",
     "hero.subtitle":
-      "Senior software engineer with 9+ years of experience. Former IT Manager & CTO-level expertise. Available for remote work and custom business solutions.",
-    "hero.cta.recruiter": "I'm a Recruiter / Looking for Remote Talent",
-    "hero.cta.business": "I'm a Business / Looking for a Solution",
+      "Senior software engineer with 9+ years of experience delivering production-ready systems. Former IT Manager with CTO-level expertise. Available for remote roles and custom business solutions.",
+    "hero.cta.recruiter": "I'm a Recruiter / Hiring Remote Talent",
+    "hero.cta.business": "I'm a Business / Need a Technical Solution",
 
     // Trust indicators
-    "trust.years": "Years Experience",
-    "trust.cto": "Leadership Level",
-    "trust.production": "Production Ready",
-    "trust.fullstack": "Full Stack Expertise",
+    "trust.years": "Years of Experience",
+    "trust.cto": "CTO-Level Leadership",
+    "trust.production": "Production-Ready Systems",
+    "trust.fullstack": "Full-Stack Expertise",
 
     // Audience section
     "audience.title": "Who I Work With",
-    "audience.recruiters.title": "Recruiters & Remote Teams",
+    "audience.recruiters.title": "Recruiters & Remote Engineering Teams",
     "audience.recruiters.desc":
-      "Looking for a senior engineer who can work independently, solve complex problems, and deliver reliable code without constant supervision.",
+      "Teams looking for a senior software engineer who works autonomously, communicates asynchronously, and delivers reliable production code without constant supervision.",
     "audience.recruiters.point1": "Autonomous remote work with async communication",
     "audience.recruiters.point2": "Legacy system maintenance and modernization",
-    "audience.recruiters.point3": "Production incident response and debugging",
+    "audience.recruiters.point3": "Production incident response and advanced debugging",
     "audience.recruiters.cta": "View Remote Engineer Profile",
-    "audience.business.title": "Businesses & Companies",
+
+    "audience.business.title": "Businesses & Growing Companies",
     "audience.business.desc":
-      "Need custom software solutions, internal tools, or someone to take ownership of your technical challenges without the overhead of a full-time hire.",
-    "audience.business.point1": "Custom internal systems and dashboards",
-    "audience.business.point2": "Process automation and integrations",
-    "audience.business.point3": "Technical ownership and ongoing support",
+      "Companies that need custom software solutions, internal tools, or clear technical ownership without the overhead of a full-time in-house team.",
+    "audience.business.point1": "Custom internal systems and business dashboards",
+    "audience.business.point2": "Process automation and system integrations",
+    "audience.business.point3": "End-to-end technical ownership and long-term support",
     "audience.business.cta": "Explore Business Solutions",
 
-    // Problems section
-    "problems.title": "Problems I Solve",
+    // Problems section (SEO fuerte)
+    "problems.title": "Business and Technical Problems I Solve in Production Systems",
     "problems.subtitle":
-      "Technical challenges and business problems require different approaches but the same level of expertise",
-    "problems.technical": "Technical Problems",
-    "problems.business": "Business Problems",
-    "problems.infrastructure": "Infrastructure Problems",
+      "I help businesses and remote teams solve technical, operational, and infrastructure challenges that directly impact system stability, scalability, and business growth.",
+    "problems.technical": "Technical Problems in Production Environments",
+    "problems.technical.item1": "Legacy code modernization",
+    "problems.technical.item2": "Performance bottlenecks",
+    "problems.technical.item3": "Production bugs and incidents",
+    "problems.technical.item4": "Scalability constraints",
+    "problems.technical.item5": "Technical debt management",
+
+    "problems.business": "Business and Operational Problems",
+    
+    "problems.infrastructure": "Infrastructure and Cloud Problems",
 
     // CTA
     "cta.title": "Ready to Work Together?",
     "cta.subtitle":
-      "Whether you're hiring for a remote position or need custom software built, let's discuss how I can help.",
+      "Whether you're hiring for a senior remote position or need custom software built for your business, let's discuss how I can help.",
     "cta.button": "Get in Touch",
 
     // Remote Engineer Page
-    "remote.hero.title": "Remote Software Engineer",
+    "remote.hero.title": "Senior Remote Software Engineer",
     "remote.hero.subtitle":
-      "Experienced in autonomous work, async communication, and delivering production-ready code across distributed teams.",
+      "Experienced in autonomous remote work, async communication, and delivering stable, production-ready systems for distributed teams.",
     "remote.working.title": "Remote Working Experience",
     "remote.working.desc":
-      "I've worked remotely for 6+ years across multiple time zones, collaborating with international teams and delivering consistent results.",
-    "remote.skills.title": "Technical Skills",
+      "Over 6+ years working remotely across multiple time zones, collaborating with international teams and delivering consistent, high-quality results.",
+    "remote.skills.title": "Core Technical Skills",
     "remote.availability.title": "Work Availability",
     "remote.availability.desc":
-      "Available for full-time remote positions, contract work, and part-time engagements. Open to various time zones and flexible working arrangements.",
-    "remote.criteria.title": "What I Look For",
+      "Available for full-time remote roles, contract-based work, and part-time engagements. Flexible across time zones and working arrangements.",
+    "remote.criteria.title": "What I Look For in Remote Roles",
     "remote.criteria.desc":
-      "Clear expectations, autonomous work environment, quality over speed, modern stack, and meaningful technical challenges.",
+      "Clear expectations, autonomous environments, quality over speed, modern technology stacks, and meaningful technical challenges.",
     "remote.criteria.cta": "View Full Technical Criteria",
     "remote.contact.title": "Let's Talk",
     "remote.contact.desc":
-      "If you're looking for a reliable senior engineer who can work independently and deliver quality code, let's connect.",
+      "If you're looking for a reliable senior engineer who can take ownership and deliver production-grade solutions, let's connect.",
     "remote.contact.cta": "Contact Me",
 
     // Contact page
     "contact.title": "Get in Touch",
-    "contact.subtitle": "Whether you're hiring for a remote position or need a custom solution, I'm here to help.",
+    "contact.subtitle":
+      "Whether you're hiring a senior remote engineer or need a custom technical solution, I'm available to help.",
     "contact.email": "Email",
     "contact.response": "Response Time",
     "contact.response.time": "Within 24 hours",
   },
+
   es: {
     // Navigation
     "nav.home": "Inicio",
@@ -104,74 +114,80 @@ const translations = {
     "nav.mindset": "Mentalidad",
     "nav.contact": "Contacto",
 
-    // Hero
-    "hero.title": "Construyendo Sistemas de Producción con Impacto Empresarial",
+    // Hero (SEO reforzado)
+    "hero.title": "Ingeniero de Software Senior Construyendo Sistemas de Producción con Impacto Empresarial",
     "hero.subtitle":
-      "Ingeniero de software senior con más de 9 años de experiencia. Ex-gerente de TI y experiencia a nivel CTO. Disponible para trabajo remoto y soluciones empresariales personalizadas.",
+      "Ingeniero de software senior con más de 9 años de experiencia en sistemas en producción. Ex-gerente de TI con experiencia a nivel CTO. Disponible para trabajo remoto y soluciones empresariales personalizadas.",
     "hero.cta.recruiter": "Soy Reclutador / Busco Talento Remoto",
-    "hero.cta.business": "Soy una Empresa / Busco una Solución",
+    "hero.cta.business": "Soy Empresa / Necesito una Solución Técnica",
 
     // Trust indicators
     "trust.years": "Años de Experiencia",
-    "trust.cto": "Nivel de Liderazgo",
-    "trust.production": "Listo para Producción",
+    "trust.cto": "Liderazgo Nivel CTO",
+    "trust.production": "Sistemas Listos para Producción",
     "trust.fullstack": "Experiencia Full Stack",
 
     // Audience section
     "audience.title": "Con Quién Trabajo",
-    "audience.recruiters.title": "Reclutadores y Equipos Remotos",
+    "audience.recruiters.title": "Reclutadores y Equipos de Ingeniería Remotos",
     "audience.recruiters.desc":
-      "Buscan un ingeniero senior capaz de trabajar de forma independiente, resolver problemas complejos y entregar código confiable sin supervisión constante.",
+      "Equipos que buscan un ingeniero senior capaz de trabajar de forma autónoma, comunicarse de manera asíncrona y entregar código confiable en producción.",
     "audience.recruiters.point1": "Trabajo remoto autónomo con comunicación asíncrona",
     "audience.recruiters.point2": "Mantenimiento y modernización de sistemas legacy",
-    "audience.recruiters.point3": "Respuesta a incidentes y depuración en producción",
+    "audience.recruiters.point3": "Gestión de incidentes y depuración en producción",
     "audience.recruiters.cta": "Ver Perfil de Ingeniero Remoto",
-    "audience.business.title": "Empresas y Compañías",
+
+    "audience.business.title": "Empresas y Compañías en Crecimiento",
     "audience.business.desc":
-      "Necesitan soluciones de software personalizadas, herramientas internas, o alguien que se responsabilice de sus desafíos técnicos sin el costo de una contratación a tiempo completo.",
-    "audience.business.point1": "Sistemas internos y dashboards personalizados",
-    "audience.business.point2": "Automatización de procesos e integraciones",
-    "audience.business.point3": "Propiedad técnica y soporte continuo",
+      "Empresas que necesitan soluciones de software a la medida, herramientas internas o una clara propiedad técnica sin contratar un equipo completo.",
+    "audience.business.point1": "Sistemas internos y dashboards empresariales",
+    "audience.business.point2": "Automatización de procesos e integraciones de sistemas",
+    "audience.business.point3": "Propiedad técnica completa y soporte continuo",
     "audience.business.cta": "Explorar Soluciones Empresariales",
 
-    // Problems section
-    "problems.title": "Problemas que Resuelvo",
+    // Problems section (SEO fuerte)
+    "problems.title": "Problemas Técnicos y Empresariales que Resuelvo en Sistemas de Producción",
     "problems.subtitle":
-      "Los desafíos técnicos y problemas empresariales requieren enfoques diferentes pero el mismo nivel de experiencia",
-    "problems.technical": "Problemas Técnicos",
-    "problems.business": "Problemas Empresariales",
-    "problems.infrastructure": "Problemas de Infraestructura",
+      "Ayudo a empresas y equipos remotos a resolver problemas técnicos, operativos y de infraestructura que impactan directamente en la estabilidad, escalabilidad y crecimiento del negocio.",
+    "problems.technical": "Problemas Técnicos en Producción",
+    "problems.technical.item1": "Modernización de código legacy",
+    "problems.technical.item2": "Cuellos de botella de rendimiento",
+    "problems.technical.item3": "Errores e incidentes en producción",
+    "problems.technical.item4": "Limitaciones de escalabilidad",
+    "problems.technical.item5": "Gestión de deuda técnica",
+    "problems.business": "Problemas Empresariales y Operativos",
+    "problems.infrastructure": "Problemas de Infraestructura y Nube",
 
     // CTA
     "cta.title": "¿Listo para Trabajar Juntos?",
     "cta.subtitle":
-      "Ya sea que estés contratando para una posición remota o necesites software personalizado, hablemos sobre cómo puedo ayudar.",
+      "Ya sea que estés contratando un ingeniero senior remoto o necesites software a la medida para tu empresa, hablemos.",
     "cta.button": "Ponte en Contacto",
 
     // Remote Engineer Page
-    "remote.hero.title": "Ingeniero de Software Remoto",
+    "remote.hero.title": "Ingeniero de Software Senior Remoto",
     "remote.hero.subtitle":
-      "Con experiencia en trabajo autónomo, comunicación asíncrona y entrega de código listo para producción en equipos distribuidos.",
+      "Experiencia en trabajo remoto autónomo, comunicación asíncrona y entrega de sistemas estables listos para producción.",
     "remote.working.title": "Experiencia en Trabajo Remoto",
     "remote.working.desc":
-      "He trabajado de forma remota durante más de 6 años en múltiples zonas horarias, colaborando con equipos internacionales y entregando resultados consistentes.",
-    "remote.skills.title": "Habilidades Técnicas",
+      "Más de 6 años trabajando de forma remota con equipos internacionales, entregando resultados consistentes en entornos distribuidos.",
+    "remote.skills.title": "Habilidades Técnicas Clave",
     "remote.availability.title": "Disponibilidad Laboral",
     "remote.availability.desc":
-      "Disponible para posiciones remotas a tiempo completo, trabajo por contrato y compromisos a tiempo parcial. Abierto a varias zonas horarias y acuerdos de trabajo flexibles.",
-    "remote.criteria.title": "Lo Que Busco",
+      "Disponible para posiciones remotas de tiempo completo, contratos por proyecto y colaboraciones de medio tiempo.",
+    "remote.criteria.title": "Qué Busco en un Rol Remoto",
     "remote.criteria.desc":
-      "Expectativas claras, entorno de trabajo autónomo, calidad sobre velocidad, stack moderno y desafíos técnicos significativos.",
+      "Expectativas claras, entornos autónomos, enfoque en calidad, stacks modernos y retos técnicos reales.",
     "remote.criteria.cta": "Ver Criterios Técnicos Completos",
     "remote.contact.title": "Hablemos",
     "remote.contact.desc":
-      "Si buscas un ingeniero senior confiable que pueda trabajar de forma independiente y entregar código de calidad, conectemos.",
+      "Si buscas un ingeniero senior confiable que se haga cargo de sistemas críticos, conectemos.",
     "remote.contact.cta": "Contáctame",
 
     // Contact page
-    "contact.title": "Ponte en Contacto",
+    "contact.title": "Contacto",
     "contact.subtitle":
-      "Ya sea que estés contratando para una posición remota o necesites una solución personalizada, estoy aquí para ayudar.",
+      "Ya sea para contratación remota o soluciones técnicas personalizadas, estoy disponible para ayudarte.",
     "contact.email": "Correo Electrónico",
     "contact.response": "Tiempo de Respuesta",
     "contact.response.time": "Dentro de 24 horas",

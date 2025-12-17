@@ -10,6 +10,39 @@ import { ArrowRight, Users, Building2, CheckCircle2, Code2, Database, Server } f
 export default function HomePage() {
   const { t } = useI18n()
 
+    const sections = [
+    {
+      title: t("problems.technical"),
+      items: [
+        t("problems.technical.item1"),
+        t("problems.technical.item2"),
+        t("problems.technical.item3"),
+        t("problems.technical.item4"),
+        t("problems.technical.item5"),
+      ],
+    },
+    {
+      title: t("problems.business"),
+      items: [
+        t("problems.business.item1"),
+        t("problems.business.item2"),
+        t("problems.business.item3"),
+        t("problems.business.item4"),
+        t("problems.business.item5"),
+      ],
+    },
+    {
+      title: t("problems.infrastructure"),
+      items: [
+        t("problems.infrastructure.item1"),
+        t("problems.infrastructure.item2"),
+        t("problems.infrastructure.item3"),
+        t("problems.infrastructure.item4"),
+        t("problems.infrastructure.item5"),
+      ],
+    },
+  ]
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -150,11 +183,11 @@ export default function HomePage() {
               <Code2 className="h-8 w-8 mb-4 text-accent" />
               <h3 className="font-bold mb-3">{t("problems.technical")}</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Legacy code modernization</li>
-                <li>• Performance bottlenecks</li>
-                <li>• Production bugs and incidents</li>
-                <li>• Scalability constraints</li>
-                <li>• Technical debt management</li>
+                <li>• {t("problems.technical.item1")}</li>
+                <li>• {t("problems.technical.item2")}</li>
+                <li>• {t("problems.technical.item3")}</li>
+                <li>• {t("problems.technical.item4")}</li>
+                <li>• {t("problems.technical.item5")}</li>
               </ul>
             </div>
 

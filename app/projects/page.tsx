@@ -8,117 +8,199 @@ export default function ProjectsPage() {
   const { lang } = useI18n()
 
   const content = {
-    en: {
-      title: "Projects",
-      subtitle: "Real problems, real solutions, real results. Case studies from production systems.",
-      projects: [
-        {
-          title: "E-commerce Platform Migration",
-          context: "Growing online retailer with 50k monthly users",
-          problem: "Legacy PHP monolith causing frequent downtime and slow deployments",
-          solution: "Gradual migration to microservices architecture with Laravel API and React frontend",
-          result: "99.9% uptime, 40% faster page loads, deployment time reduced from 2 hours to 15 minutes",
-          tags: ["Laravel", "React", "PostgreSQL", "Docker"],
-        },
-        {
-          title: "Internal Operations Dashboard",
-          context: "Manufacturing company with manual reporting process",
-          problem: "Operations team spending 10+ hours weekly compiling Excel reports from multiple sources",
-          solution: "Custom dashboard aggregating data from ERP, warehouse system, and sales CRM",
-          result: "90% reduction in reporting time, real-time visibility, data-driven decision making",
-          tags: ["Python", "FastAPI", "Vue.js", "PostgreSQL"],
-        },
-        {
-          title: "API Integration Platform",
-          context: "SaaS company needing to integrate with 20+ third-party services",
-          problem: "Each integration was custom-built, leading to unmaintainable code and frequent breakages",
-          solution: "Built unified integration framework with standardized authentication and error handling",
-          result: "New integrations added in days instead of weeks, 80% reduction in integration bugs",
-          tags: ["Node.js", "TypeScript", "Redis", "AWS Lambda"],
-        },
-        {
-          title: "Legacy System Modernization",
-          context: "Financial services firm with 10-year-old ASP.NET application",
-          problem: "Critical business system that couldn't be updated due to technical debt",
-          solution: "Incremental refactoring: database migration, API extraction, gradual frontend replacement",
-          result: "System modernized without downtime, new features now deployable weekly",
-          tags: ["Laravel", "Next.js", "MySQL", "Kubernetes"],
-        },
-        {
-          title: "Automated Compliance Reporting",
-          context: "Healthcare provider requiring monthly regulatory reports",
-          problem: "Compliance team manually generating reports from multiple databases",
-          solution: "Automated pipeline with data validation, transformation, and scheduled report generation",
-          result: "100% accuracy in reports, compliance team refocused on analysis instead of data entry",
-          tags: ["Python", "PostgreSQL", "Pandas", "Docker"],
-        },
-        {
-          title: "Customer Portal Rebuild",
-          context: "B2B service company with outdated client-facing portal",
-          problem: "Customers frustrated with slow, unintuitive interface leading to support tickets",
-          solution: "Complete rebuild with modern UX, real-time updates, and mobile responsiveness",
-          result: "60% reduction in support tickets, 4.8/5 customer satisfaction score",
-          tags: ["React", "Next.js", "Tailwind CSS", "PostgreSQL"],
-        },
-      ],
-    },
-    es: {
-      title: "Proyectos",
-      subtitle: "Problemas reales, soluciones reales, resultados reales. Casos de estudio de sistemas en producción.",
-      projects: [
-        {
-          title: "Migración de Plataforma E-commerce",
-          context: "Minorista en línea en crecimiento con 50k usuarios mensuales",
-          problem: "Monolito PHP legacy causando caídas frecuentes y despliegues lentos",
-          solution: "Migración gradual a arquitectura de microservicios con API Laravel y frontend React",
-          result: "99.9% uptime, páginas 40% más rápidas, tiempo de despliegue reducido de 2 horas a 15 minutos",
-          tags: ["Laravel", "React", "PostgreSQL", "Docker"],
-        },
-        {
-          title: "Dashboard de Operaciones Interno",
-          context: "Empresa manufacturera con proceso de reportes manual",
-          problem: "Equipo de operaciones gastando 10+ horas semanales compilando reportes Excel de múltiples fuentes",
-          solution: "Dashboard personalizado agregando datos de ERP, sistema de almacén y CRM de ventas",
-          result: "90% reducción en tiempo de reportes, visibilidad en tiempo real, toma de decisiones basada en datos",
-          tags: ["Python", "FastAPI", "Vue.js", "PostgreSQL"],
-        },
-        {
-          title: "Plataforma de Integración API",
-          context: "Empresa SaaS necesitando integrar con 20+ servicios de terceros",
-          problem: "Cada integración era construida a medida, llevando a código no mantenible y fallos frecuentes",
-          solution: "Framework de integración unificado con autenticación estandarizada y manejo de errores",
-          result: "Nuevas integraciones añadidas en días en lugar de semanas, 80% reducción en bugs de integración",
-          tags: ["Node.js", "TypeScript", "Redis", "AWS Lambda"],
-        },
-        {
-          title: "Modernización de Sistema Legacy",
-          context: "Firma de servicios financieros con aplicación ASP.NET de 10 años",
-          problem: "Sistema crítico de negocio que no podía actualizarse debido a deuda técnica",
-          solution:
-            "Refactorización incremental: migración de base de datos, extracción de API, reemplazo gradual de frontend",
-          result: "Sistema modernizado sin caídas, nuevas funcionalidades ahora desplegables semanalmente",
-          tags: ["Laravel", "Next.js", "MySQL", "Kubernetes"],
-        },
-        {
-          title: "Reportes de Cumplimiento Automatizados",
-          context: "Proveedor de salud requiriendo reportes regulatorios mensuales",
-          problem: "Equipo de cumplimiento generando reportes manualmente desde múltiples bases de datos",
-          solution: "Pipeline automatizado con validación de datos, transformación y generación programada de reportes",
-          result:
-            "100% precisión en reportes, equipo de cumplimiento reenfocado en análisis en lugar de entrada de datos",
-          tags: ["Python", "PostgreSQL", "Pandas", "Docker"],
-        },
-        {
-          title: "Reconstrucción de Portal de Cliente",
-          context: "Empresa de servicios B2B con portal cliente desactualizado",
-          problem: "Clientes frustrados con interfaz lenta y poco intuitiva llevando a tickets de soporte",
-          solution: "Reconstrucción completa con UX moderna, actualizaciones en tiempo real y responsividad móvil",
-          result: "60% reducción en tickets de soporte, calificación de satisfacción del cliente de 4.8/5",
-          tags: ["React", "Next.js", "Tailwind CSS", "PostgreSQL"],
-        },
-      ],
-    },
-  }
+  en: {
+    title: "Projects",
+    subtitle:
+      "Real-world platforms in production: SaaS, electronic invoicing, AI automation, and enterprise integrations.",
+    projects: [
+      {
+        title: "Electronic Invoicing Platform (SAT Integration)",
+        context: "Company operating a legacy PHP invoicing system",
+        problem:
+          "Legacy PHP system with low maintainability, scalability issues, and limited integration capabilities",
+        solution:
+          "Full migration to a modern JavaScript-based architecture. Backend built with Adonis.js and PostgreSQL, frontend developed using Vue.js and Quasar, with direct integration to SAT APIs for electronic invoicing and stamping",
+        result:
+          "Significant improvements in performance, scalability, and maintainability, enabling reliable electronic invoicing in production",
+        tags: ["Adonis.js", "Vue.js", "Quasar", "PostgreSQL", "SAT API"],
+      },
+      {
+        title: "AI-Powered Subscription Billing SaaS",
+        context: "SaaS platform offering subscription-based electronic billing",
+        problem:
+          "Manual support processes and lack of intelligent assistance increased operational load",
+        solution:
+          "Development of a SaaS platform with FastAPI backend and React frontend, Stripe integration for recurring payments, and an AI agent built with LangChain and ChatGPT-like models to automate support and operational assistance",
+        result:
+          "Automated customer support flows, reduced human workload, and improved operational efficiency",
+        tags: ["Python", "FastAPI", "React", "Stripe", "LangChain", "AI"],
+      },
+      {
+        title: "Affiliate Invoicing Platform with AI Agents",
+        context: "Platform for reselling electronic invoicing through affiliates",
+        problem:
+          "High volume of repetitive support and billing inquiries impacting response times",
+        solution:
+          "Backend built with Adonis.js and frontend with Vue.js + Vuetify. Local LLM execution using Ollama and implementation of two AI agents: technical support and WhatsApp-based billing assistant",
+        result:
+          "Reduced manual support, faster response times, and improved user experience through automation",
+        tags: ["Adonis.js", "Vue.js", "Vuetify", "Ollama", "LLM", "WhatsApp"],
+      },
+      {
+        title: "Digital Menu Integration for Enterprise Group",
+        context: "Large corporate group requiring embedded digital menu integration",
+        problem:
+          "Need to embed a digital menu into an existing enterprise application without disrupting core systems",
+        solution:
+          "Microservices-based architecture consuming the main API. Frontend built with Vue.js and Vuetify, backend with Laravel. Deployed across testing and production environments using Docker and Oracle Cloud infrastructure",
+        result:
+          "Successful enterprise integration with scalable, isolated services and zero impact on the core application",
+        tags: ["Laravel", "Vue.js", "Vuetify", "Docker", "Oracle Cloud", "Microservices"],
+      },
+      {
+        title: "Food Recommendation System",
+        context: "Web platform focused on personalized food recommendations",
+        problem:
+          "Lack of personalized recommendations based on customer behavior and external factors",
+        solution:
+          "Monolithic Laravel-based platform recommending dishes based on consumption history, purchase profile, and weather conditions",
+        result:
+          "Improved customer engagement through personalized and contextual recommendations",
+        tags: ["Laravel", "Blade", "Vue.js", "Livewire", "PHP"],
+      },
+      {
+        title: "Legacy Desktop System Migration to Web",
+        context: "Company with a lost Visual Basic desktop system source code",
+        problem:
+          "Critical desktop system could not be maintained or extended due to missing source code",
+        solution:
+          "Complete rebuild from scratch using Laravel, preserving and reusing the existing production MySQL database",
+        result:
+          "Modern web platform deployed on physical servers, restoring system continuity and long-term maintainability",
+        tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "Monolithic"],
+      },
+      {
+        title: "Loyalty Points Platform",
+        context: "Gas station network implementing a customer loyalty program",
+        problem:
+          "Manual tracking of purchases and point redemptions",
+        solution:
+          "Laravel-based web platform to register purchases, calculate loyalty points, and send redemption notifications via email",
+        result:
+          "Automated loyalty management and improved customer retention",
+        tags: ["Laravel", "PHP", "MySQL", "Email", "Loyalty System"],
+      },
+      {
+        title: "Bachoco Food Service Mobile Application",
+        context: "Internal sales team at Bachoco Food Service",
+        problem:
+          "Inefficient process for generating and sending wholesale product quotations",
+        solution:
+          "Mobile application built with Ionic and a PHP backend to generate and send quotations efficiently",
+        result:
+          "Faster quotation workflows and improved communication with clients",
+        tags: ["Ionic", "PHP", "Mobile App", "Play Store"],
+      },
+    ],
+  },
+
+  es: {
+    title: "Proyectos",
+    subtitle:
+      "Plataformas reales en producción: SaaS, facturación electrónica, automatización con IA e integraciones empresariales.",
+    projects: [
+      {
+        title: "Plataforma de Facturación Electrónica (Integración SAT)",
+        context: "Empresa con sistema legacy de facturación en PHP",
+        problem:
+          "Sistema PHP heredado con baja mantenibilidad, problemas de escalabilidad y limitadas integraciones",
+        solution:
+          "Migración completa a una arquitectura moderna en JavaScript. Backend con Adonis.js y PostgreSQL, frontend con Vue.js y Quasar, e integración directa con APIs del SAT para timbrado",
+        result:
+          "Mejoras significativas en rendimiento, escalabilidad y mantenibilidad en producción",
+        tags: ["Adonis.js", "Vue.js", "Quasar", "PostgreSQL", "SAT API"],
+      },
+      {
+        title: "SaaS de Facturación por Suscripción con IA",
+        context: "Plataforma SaaS de facturación bajo modelo de suscripción",
+        problem:
+          "Procesos de soporte manuales y alta carga operativa",
+        solution:
+          "Desarrollo de un sistema SaaS con backend en FastAPI y frontend en React, integración de Stripe para pagos recurrentes y agente inteligente con LangChain y modelos tipo ChatGPT",
+        result:
+          "Automatización de flujos de atención, reducción de carga humana y mayor eficiencia operativa",
+        tags: ["Python", "FastAPI", "React", "Stripe", "LangChain", "IA"],
+      },
+      {
+        title: "Sistema de Afiliados con Agentes de IA",
+        context: "Plataforma de reventa de timbrados mediante afiliados",
+        problem:
+          "Alto volumen de consultas repetitivas de soporte y facturación",
+        solution:
+          "Backend con Adonis.js y frontend con Vue.js + Vuetify. Implementación de Ollama para ejecutar LLM locales y creación de agentes de soporte técnico y facturación vía WhatsApp",
+        result:
+          "Reducción de soporte manual y mejora significativa en la experiencia del usuario",
+        tags: ["Adonis.js", "Vue.js", "Vuetify", "Ollama", "LLM", "WhatsApp"],
+      },
+      {
+        title: "Integración de Menú Digital para Grupo Empresarial",
+        context: "Grupo corporativo de gran escala",
+        problem:
+          "Necesidad de integrar un menú digital de forma embebida en su aplicación principal",
+        solution:
+          "Arquitectura de microservicios consumiendo API principal. Frontend en Vue.js + Vuetify y backend en Laravel, con despliegue en Docker sobre infraestructura de Oracle",
+        result:
+          "Integración empresarial exitosa sin impacto en el sistema principal",
+        tags: ["Laravel", "Vue.js", "Vuetify", "Docker", "Oracle", "Microservicios"],
+      },
+      {
+        title: "Sistema de Recomendación de Platillos",
+        context: "Plataforma web de recomendación gastronómica",
+        problem:
+          "Falta de personalización en recomendaciones de consumo",
+        solution:
+          "Plataforma monolítica en Laravel que recomienda platillos según consumo, perfil de compra y clima",
+        result:
+          "Mayor engagement del usuario mediante recomendaciones personalizadas",
+        tags: ["Laravel", "Blade", "Vue.js", "Livewire", "PHP"],
+      },
+      {
+        title: "Migración de Sistema Visual Basic a Web",
+        context: "Empresa con sistema de escritorio sin código fuente",
+        problem:
+          "Sistema crítico imposible de mantener por pérdida del código original",
+        solution:
+          "Reconstrucción completa desde cero en Laravel respetando la base de datos de producción existente",
+        result:
+          "Plataforma web moderna desplegada en servidores físicos",
+        tags: ["Laravel", "PHP", "MySQL", "Bootstrap", "Monolítico"],
+      },
+      {
+        title: "Plataforma de Plan de Lealtad",
+        context: "Red de gasolineras",
+        problem:
+          "Gestión manual de puntos y redenciones",
+        solution:
+          "Sistema web en Laravel para registro de compras, cálculo de puntos y envío de notificaciones por correo",
+        result:
+          "Automatización del programa de lealtad y mejora en retención de clientes",
+        tags: ["Laravel", "PHP", "MySQL", "Lealtad", "Email"],
+      },
+      {
+        title: "Aplicación Móvil Bachoco Food Service",
+        context: "Colaboradores internos de Bachoco",
+        problem:
+          "Proceso lento para generar y enviar cotizaciones mayoristas",
+        solution:
+          "Aplicación móvil desarrollada con Ionic y backend en PHP para generación eficiente de cotizaciones",
+        result:
+          "Agilización del proceso comercial y mejor comunicación con clientes",
+        tags: ["Ionic", "PHP", "Mobile App", "Play Store"],
+      },
+    ],
+  },
+};
+
 
   const data = content[lang]
 
